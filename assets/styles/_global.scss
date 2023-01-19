@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter';
+  color: var(--black);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1620px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.line-clamp {
+  &-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s;
+}
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+
+.swiper {
+  overflow: hidden;
+}
+
+.page {
+  background-color: #fff;
+}
+
+.Vue-Toastification__toast-body {
+  font-family: 'Inter';
+  font-size: 18px !important;
+  font-weight: 500;
+}
+
+.Vue-Toastification__toast--success {
+  background-color: #bf9f71 !important;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  background: hsl(0, 0%, 70%);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+}

@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('@/assets/fonts/Inter-Regular.woff2') format('woff2'),
+    url('@/assets/fonts/Inter-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('@/assets/fonts/Poppins-Regular.woff2') format('woff2'),
+    url('@/assets/fonts/Poppins-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('@/assets/fonts/Poppins-Medium.woff2') format('woff2'),
+    url('@/assets/fonts/Poppins-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('@/assets/fonts/Poppins-SemiBold.woff2') format('woff2'),
+    url('@/assets/fonts/Poppins-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('@/assets/fonts/Poppins-Bold.woff2') format('woff2'),
+    url('@/assets/fonts/Poppins-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Andada';
+  src: url('@/assets/fonts/AndadaPro-Regular.woff2') format('woff2'),
+    url('@/assets/fonts/AndadaPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.ir-regular {
+  font-family: 'Inter';
+  font-weight: normal;
+}
+
+.ps {
+  &-regular {
+    font-family: 'Poppins';
+    font-weight: normal;
+  }
+
+  &-medium {
+    font-family: 'Poppins';
+    font-weight: 500;
+  }
+
+  &-semibold {
+    font-family: 'Poppins';
+    font-weight: 600;
+  }
+
+  &-bold {
+    font-family: 'Poppins';
+    font-weight: bold;
+  }
+}
+
+.aa-regular {
+  font-family: 'Andada';
+  font-weight: normal;
+}
